@@ -52,26 +52,29 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
-        <Button
+        <ToggleButton
             android:id="@+id/btn_light_control"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="채광" />
+            android:textOn="채광 \nON"
+            android:textOff="채광 \nOFF"
+            android:onClick="onToggleClicked"/>
 
-        <Button
+        <ToggleButton
             android:id="@+id/btn_alarm"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="알람" />
-
-        <Button
-            android:id="@+id/btn_mode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="모드" />
+            android:textOn="알람 \nON"
+            android:textOff="알람 \nOFF"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_mode"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="모드" />-->
 
     </LinearLayout>
 

@@ -10,12 +10,6 @@
         android:orientation="vertical"
         android:layout_weight="2">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="시간"
-            android:layout_weight="1"/>
-
         <TimePicker
             android:id="@+id/tp_set_alarm"
             android:layout_width="match_parent"
@@ -44,12 +38,6 @@
             android:textOn="UP"
             android:textOff="DOWN"
             android:onClick="onToggleClicked"
-            android:layout_weight="1"/>
-
-        <Switch
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="블라인드 높이"
             android:layout_weight="1"/>
 
     </LinearLayout>
